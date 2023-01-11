@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#greetings {
+    font-family: 'Share Tech Mono', monospace;
+    padding-left: 15%;
+    padding-top: 3%;
+}
+
+#skills-container {
+    padding-top: 1%;
+}
+
+#systems-container {
+    padding-top: 1%;
+}
+#skills {
+    text-align: center;
+}
+
+footer {
+    padding-top: 2%;
+}
+
+#systems {
+    padding-top: 2%;
+    text-align: center;
+}
+
+.skills {
+    align-content: center;
+}
+/* Sticky Header */
+    body {
+        background-color: rgb(26, 72, 99);
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        }
+
+    .top-container {
+        padding: 30px;
+        text-align: center;
+        }
+
+    .content {
+        padding: 16px;
+        }
+
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        }
+
+    .sticky + .content {
+        padding-top: 102px;
+        }
+
+
+/* Announcement Bar */
+    .announcement {
+        display: inline-block;
+        height: 100%;
+        text-align: center;
+        width: 100%;
+        background: rgba(48, 112, 207, 0.8);
+        color: white;
+        font-family: Arial, sans;
+        margin: 0;
+        padding: 10px;
+        vertical-align: middle;
+        font-size: 0.8em;
+    }
+    
+/* Announcement Bar Link */
+    .announcement a { 
+        color: white; 
+        background-color: rgba(48, 112, 207, 0.8);
+    }
+
+    .announcement a:hover {
+        color: moccasin;
+    }
+
+/* Navigation */
+    .topnav {
+        background-color: white;
+        overflow: hidden;
+        padding-top: 30px;
+        margin: 0 300px;
+        text-align: center;
+    }
+/* Style the links inside the navigation bar */
+    .topnav a {
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    
+/* Change the color of links on hover */
+    .topnav a:hover {
+        color: moccasin;
+    }
+    
+/* Add a color to the active/current link */
+    .topnav a.active {
+        text-decoration-line: underline;
+        color: black;
+    }
+
+    #future {
+        margin: 0 auto;
+        padding: 40px;
+        text-align: center;
+        width: 400px;
+        height: 1000px;
+    }
+
+    .header {
+        background-color: white;
+    }
