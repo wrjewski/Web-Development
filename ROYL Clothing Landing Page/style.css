@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Sticky Header */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+.top-container {
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+    }
+
+.content {
+    padding: 16px;
+    }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    }
+
+.sticky + .content {
+    padding-top: 102px;
+    }
+
+.mainLogo {
+    background-color: white;
+    height: 100px; 
+    width: 110px;
+    padding-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Announcement Bar */
+.announcement {
+    display: inline-block;
+    height: 100%;
+    text-align: center;
+    width: 100%;
+    background: rgb(121, 128, 80);
+    color: black;
+    font-family: Arial, sans;
+    margin: 0;
+    padding: 10px;
+    vertical-align: middle;
+    font-size: 0.8em;
+  }
+  
+  .announcement a { 
+    color: black; 
+  }
+  
+  .announcement a:hover {
+    color: moccasin;
+  }
+
+  /* Navigation */
+  /* Add a black background color to the top navigation */
+    .topnav {
+        background-color: white;
+        overflow: hidden;
+        padding-top: 30px;
+        margin: 0 300px;
+        text-align: center;
+    }
+    /* Style the links inside the navigation bar */
+    .topnav a {
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    
+    /* Change the color of links on hover */
+    .topnav a:hover {
+        color: moccasin;
+    }
+    
+    /* Add a color to the active/current link */
+    .topnav a.active {
+        text-decoration-line: underline;
+        color: black;
+    }
+
+    #future {
+        margin: 0 auto;
+        padding: 40px;
+        text-align: center;
+        width: 400px;
+        height: 1000px;
+    }
+
+    .header {
+        background-color: white;
+    }
