@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #85cde1 10%, #213d6d 100%);
+    background-repeat: repeat;
+    padding-top: 40px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.form-wrapper {
+    max-width: 670px;
+    margin: 0 auto;
+    border: 2px solid #000;
+    box-shadow: 10px 10px rgb(202, 160, 235);
+}
+
+.form-container {
+    display: flex;
+    align-items: stretch;
+    color: #002333;
+}
+
+.form-left {
+    padding: 20px;
+    display: flex;
+    flex-basis: 50%;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #002333;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.form-left::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(240deg, rgba(255, 255, 255, 0), rgba(0, 0, 0, 1)100%);
+}
+
+.content {
+    color: #ffffff;
+    z-index: 9;
+}
+
+.content h3 {
+    font-size: 48px;
+    line-height: 48px;
+    position: relative;
+    font-weight: 600;
+    margin-bottom: 50px;
+    letter-spacing: -0.5;
+}
+
+.content h3::after {
+    content: "";
+    width: 85%;
+    height: 6px;
+    background: purple;
+    position: absolute;
+    bottom: -25%;
+    left: 0;
+}
+
+.content p {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+/* form right */
+
+.form-right {
+
+    flex-basis: 50%;
+    padding: 25px;
+    background-color: #ffffff;
+}
+
+.subscribe-form {
+    padding-top: 20px;
+}
+
+.user-input h1 {
+    padding-bottom: 20px;
+    font-size: 34px;
+}
+
+.user-input ul li {
+    padding: 10px;
+    border: 1px solid #002333;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px rgb(202, 160, 235);
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.user-input input {
+    padding: 8px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 500px;
+    color: #002333;
+    display: inline-block;
+    margin-bottom: 20px;
+    border: 1px solid rgb(220, 222, 225);
+}
+
+.user-input input:focus {
+    outline: none;
+    border-color: purple;
+}
+
+.user-input input::placeholder {
+    color: #2C3333;
+    font-size: 14px;
+}
+
+.btn {
+    width: 100%;
+    display: inline-block;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: purple;
+    padding: 0 20px;
+    height: 40px;
+    border: 1px solid #002333;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.subChoice {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: inline-flex;
+    margin: 0 auto;
+}
+
+.subChoice input {
+    margin-right: 5px;
+}
+
+.subChoice h4 {
+    margin-right: 5px;
+    color: purple;
+}
